@@ -69,47 +69,97 @@ titanic-eda-analysis/
 ├── titanic.csv
 ├── titanic_eda_analysis.ipynb
 └── README.md
+```
 
-🚀 How to Run the Project
-1️⃣ Clone the Repository
+---
+
+## 🚀 How to Run the Project
+
+### 1️⃣ Clone the Repository
+
+```bash
 git clone https://github.com/anjalipaul60/titanic-eda-analysis.git
-2️⃣ Navigate to the Project Folder
+```
+
+### 2️⃣ Navigate to the Project Folder
+
+```bash
 cd titanic-eda-analysis
-3️⃣ Install Required Libraries
+```
+
+### 3️⃣ Install Required Libraries
+
+```bash
 pip install -r requirements.txt
-4️⃣ Launch Jupyter Notebook
+```
+
+### 4️⃣ Launch Jupyter Notebook
+
+```bash
 jupyter notebook
-📈 Key Insights
-Female passengers had significantly higher survival rates than male passengers
-First-class passengers had better chances of survival
-Most passengers were between the age group of 20–40
-Passenger class, age, and gender strongly influenced survival probability
-The dataset contains missing values that required preprocessing and cleaning
-🖼️ Visualizations
-📌 Survival Count
+```
 
-📌 Gender vs Survival
+---
 
-📌 Passenger Class vs Survival
+## 📈 Key Insights
 
-📌 Age Distribution
+- Female passengers had significantly higher survival rates than male passengers
+- First-class passengers had better chances of survival
+- Most passengers were between the age group of 20–40
+- Passenger class, age, and gender strongly influenced survival probability
+- The dataset contains missing values that required preprocessing and cleaning
 
-📌 Correlation Heatmap
+---
 
-📚 Dataset Information
-Dataset: Titanic Dataset
-Source: Kaggle
-Purpose: Educational & Learning Project
-🔮 Future Improvements
-Add Machine Learning models for survival prediction
-Perform advanced feature engineering
-Build an interactive dashboard
-Deploy the project using Streamlit
-👩‍💻 Author
-Anjali Paul
+## 🖼️ Visualizations
+
+### 📌 Survival Count
+![Survival Count](images/survival_count.png)
+
+---
+
+### 📌 Gender vs Survival
+![Gender vs Survival](images/gender_vs_survival.png)
+
+---
+
+### 📌 Passenger Class vs Survival
+![Passenger Class vs Survival](images/passenger_class_vs_survival.png)
+
+---
+
+### 📌 Age Distribution
+![Age Distribution](images/age_distribution.png)
+
+---
+
+### 📌 Correlation Heatmap
+![Correlation Heatmap](images/correlation_heatmap.png)
+
+---
+
+## 📚 Dataset Information
+
+- **Dataset:** Titanic Dataset
+- **Source:** Kaggle
+- **Purpose:** Educational & Learning Project
+
+---
+
+## 🔮 Future Improvements
+
+- Add Machine Learning models for survival prediction
+- Perform advanced feature engineering
+- Build an interactive dashboard
+- Deploy the project using Streamlit
+
+---
+
+## 👩‍💻 Author
+
+### Anjali Paul
 
 Aspiring Data Analyst & Python Enthusiast
 
-Skills
-
+### Skills
 Python | Pandas | Data Analysis | Data Visualization | EDA
